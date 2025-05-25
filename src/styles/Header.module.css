@@ -1,0 +1,157 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.logoContainer {
+  display: flex;
+  flex: 0 0 15%;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.searchBoxContainer {
+  display: flex;
+  flex: 0 0 50%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.profileContainer {
+  display: flex;
+  gap: 15px;
+  flex: 0 0 35%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+.logo1 {
+  font-weight: 700;
+  color: aqua;
+}
+
+.logo2 {
+  font-weight: 700;
+  color: rgb(17, 17, 104);
+}
+
+.input {
+  width: 100%;
+  padding: 10px 15px;
+  padding-left: 40px;
+  margin: 0px 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(100, 99, 99, 0.1);
+}
+
+.searchIcon {
+  position: absolute;
+  left: 20px;
+  color: black;
+}
+
+.bellIcon {
+  color: rgb(17, 17, 104);
+  fill: rgb(17, 17, 104);
+  position: absolute;
+  right: 20px;
+}
+
+.profile {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: turquoise;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30%;
+}
+
+.addButton {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(17, 17, 104);
+  align-items: center;
+  justify-content: center;
+  border-radius: 30%;
+}
+
+.plusIcon {
+  color: white;
+}
+
+.sidebarContainer {
+  display: none;
+  background: none;
+  border: none;
+  margin-right: 12px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuIcon {
+  width: 24px;
+  height: 24px;
+  color: rgb(17, 17, 104);
+  padding-left: 10px;
+}
+
+@media (max-width: 900px) {
+  .sidebarContainer {
+    display: flex !important;
+  }
+
+  .container {
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 0;
+  }
+  .logoContainer {
+    display: none !important;
+  }
+  .searchBoxContainer {
+    flex: 1 1 70%;
+    padding: 0 4px;
+    margin-bottom: 0;
+  }
+  .profileContainer {
+    flex: 0 0 auto;
+    gap: 8px;
+    padding: 0 4px;
+  }
+  .profile,
+  .addButton {
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    min-height: 28px;
+    border-radius: 30%;
+  }
+  .input {
+    font-size: 0.95rem;
+    padding: 8px 8px 8px 32px;
+    margin: 0 4px;
+  }
+  .searchIcon {
+    left: 10px;
+    font-size: 16px;
+  }
+
+  .userIcon,
+  .plusIcon {
+    width: 20px;
+    height: 20px;
+  }
+}

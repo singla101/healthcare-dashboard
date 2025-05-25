@@ -1,0 +1,129 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  margin: 0;
+  color: rgb(17, 17, 104);
+  font-weight: 700;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconStyle {
+  width: 20px;
+  height: 20px;
+  color: rgb(17, 17, 104);
+}
+
+.calendarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-right: 5px;
+  width: 100%;
+}
+
+.dayContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text1 {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 5px;
+  color: rgb(17, 17, 104);
+}
+
+.text2 {
+  font-weight: 700;
+  color: rgb(17, 17, 104);
+}
+
+.timeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+.disabled {
+  color: grey;
+}
+
+.highlight {
+  color: white;
+  background-color: rgb(17, 17, 104);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.back {
+  background-color: rgb(233, 239, 253);
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+.appointmentsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.appointmentCard {
+  background-color: rgb(233, 239, 253);
+  color: rgb(17, 17, 104);
+  padding: 15px;
+  border-radius: 30px;
+  flex: auto;
+  margin-top: 10px;
+}
+.organContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.text {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 3px;
+}
+
+.clicked {
+  background-color: rgb(17, 17, 104);
+  color: white;
+}
+
+.day {
+  margin: 0;
+  font-size: 10px;
+  color: grey;
+  font-weight: 600;
+}

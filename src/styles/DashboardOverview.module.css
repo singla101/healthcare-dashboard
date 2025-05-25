@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.header {
+  color: rgb(17, 17, 104);
+  margin: 0;
+}
+.card {
+  background-color: #f7fafd;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.anatomyViewContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 10px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.anatomyBody {
+  display: flex;
+  flex-direction: column;
+  flex: 6;
+}
+
+.report {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  gap: 10px;
+}
+
+.anatomyImage {
+  width: 200px;
+  height: 300px;
+  align-self: center;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.zoomInIcon {
+  color: grey;
+}
+
+.organContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.indicatorIcons {
+  width: 35px;
+  height: 35px;
+}
+
+.indicatorName {
+  color: rgb(17, 17, 104);
+  font-weight: 600;
+}
+
+.dateStyle {
+  color: rgb(198, 198, 198);
+  margin: 0;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.sliderContainer {
+  height: 8px;
+  width: 100%;
+  background-color: rgb(201, 201, 201);
+  border-radius: 8px;
+  margin: 10px 0px;
+}
+
+.slider {
+  height: 8px;
+  width: 80%;
+  border-radius: 8px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.para {
+  font-size: 10px;
+  color: rgb(17, 17, 104);
+  justify-self: flex-end;
+  font-weight: 600;
+}
+
+.downIcon {
+  width: 15px;
+  height: 15px;
+  color: rgb(17, 17, 104);
+}
+
+.weekContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.activityImage {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.sliderImage {
+  width: 300px;
+  height: 70px;
+  align-self: center;
+}
