@@ -19,6 +19,6 @@ export const statusIndicators = [
     name: "Bone",
     Icon: Bone,
     Date: "26 Oct 2021",
-    color: "#bf7c09",
+    color: "#e1691e",
   },
 ];

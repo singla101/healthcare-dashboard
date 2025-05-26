@@ -6,7 +6,7 @@
 
 .logoContainer {
   display: flex;
-  flex: 0 0 15%;
+  flex: 0 0 20%;
   flex-direction: row;
   align-items: center;
   padding-left: 20px;
@@ -15,7 +15,7 @@
 
 .searchBoxContainer {
   display: flex;
-  flex: 0 0 50%;
+  flex: 0 0 40%;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@
 .profileContainer {
   display: flex;
   gap: 15px;
-  flex: 0 0 35%;
+  flex: 0 0 40%;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
@@ -108,7 +108,7 @@
   padding-left: 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .sidebarContainer {
     display: flex !important;
   }

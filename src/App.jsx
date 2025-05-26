@@ -6,7 +6,7 @@ import DashboardOverview from "./components/DashboardOverview";
 import CalendarView from "./components/CalendarView";
 
 const App = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth <= 900);
 
   const toggleSidebar = () => {
     console.log("Toggling sidebar");
