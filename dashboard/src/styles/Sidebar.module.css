@@ -16,6 +16,7 @@
 
 .open {
   transform: translateX(0);
+  height: 100vh;
 }
 
 .overlay {
@@ -98,5 +99,6 @@
   }
   .container.open {
     transform: translateX(0);
+    height: 100vh;
   }
 }
